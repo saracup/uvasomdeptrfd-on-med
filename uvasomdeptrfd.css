@@ -1,0 +1,181 @@
+.page .facultylist,
+.archive .facultylist,
+.page .faculty-listing,
+.archive .faculty-listing,
+.search-results .faculty-listing,
+form.ugrad {
+	clear:both;
+	margin:0 0 16px 0;
+	margin:0 0 1rem 0;
+	border:1px solid #d7d7d7;
+	overflow:hidden;
+	padding:8px;
+	padding:.5rem;
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q3ZDdkNyIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, rgba(215,215,215,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(215,215,215,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(215,215,215,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(215,215,215,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(215,215,215,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(215,215,215,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6d7d7d7', endColorstr='#00000000',GradientType=0 ); /* IE6-8 */
+}
+.uvasomclinical.page .facultylist,
+.uvasomclinical.archive .facultylist,
+.uvasomclinical.page .faculty-listing,
+.uvasomclinical.archive .faculty-listing,
+.uvasomclinical.search-results .faculty-listing {
+	background:none;
+}
+
+.page .facultylist img,
+.archive .facultylist img,
+.page .facultylist img.attachment-post-thumbnail.wp-post-image
+.archive .facultylist img.attachment-post-thumbnail.wp-post-image {
+width:80px;
+width: 5rem;
+height: auto;
+float: left;
+border: 1px solid #d7d7d7;
+padding:3px;
+padding: .2rem;
+margin-right:8px;
+margin-right:.5rem;
+background:#fff;
+}
+.page .facultylist h2 a,
+.archive .facultylist h2 a {
+	font-size: 24px;
+	font-size:1.5rem;
+	color:#ff7003;
+}
+.uvasomclinical.page .facultylist h2 a,
+.uvasomclinical.archive .facultylist h2 a {
+		color:#333;
+}
+
+.page .facultylist h2,
+.archive .facultylist h2 {
+	padding:0;
+	margin:0;
+	line-height:1.0;
+}
+.faculty-listing a {
+	color:#ff7003;
+}
+.umvasomclinical .faculty-listing a {
+	color:#333;
+}
+.faculty-listing h4.faculty, .faculty-listing h4.publications,
+h4.faculty, h4.publications 
+ {
+font-size:22px;
+font-size: 1.3rem;
+color: #ff7003;
+margin-bottom: .5rem;
+}
+.uvasomclinical.faculty-listing h4.faculty, .uvasomclinical.faculty-listing h4.publications,
+.uvasomclinical h4.faculty, .uvasomclinical h4.publications 
+ {
+	 color:#333;
+ }
+
+faculty-listing h4.publications {
+	margin-bottom:0;
+}
+div.researchdesc {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	font-size:0.9rem;
+}
+.breadcrumb {
+	z-index:100;
+	padding:12px 76px;
+}
+.facpagination {
+	font-family: 'proxima-nova-condensed',helvetica,sans-serif;
+	font-size:13px;
+	font-size: 0.9rem;
+}
+.facpagination .navprev {
+	float:left;
+}
+.facpagination .navnext {
+	float:right;
+}
+/*use css to conceal info on non-uvasomrfd archive pages, such as alpha search and normal wp search*/
+.archive .faculty-listing .post-info, .archive .faculty-listing .post-meta,
+.search-results .faculty-listing .post-info, .search-results .faculty-listing .post-meta,
+.single-faculty-listing .faculty-listing .post-info, .single-faculty-listing .faculty-listing .post-meta {
+	display:none;
+}
+.archive .faculty-listing img.alignleft.post-image.entry-image,
+.search-results .faculty-listing img {
+	width:90px;
+	width:5rem;
+	height:auto;
+	float:left;
+	padding:3px;
+	padding:.2rem;
+	border:1px solid #d7d7d7;
+	background:#fff;
+	margin-bottom:0;
+	margin-top:-45px;
+}
+.sidebar.widget-area .a2zaal_widget  ul {
+	padding:0;
+}
+.sidebar .searchform {
+padding: 0;
+}
+.sidebar input[type=text] {
+width: 100%;
+padding:3px 0;
+border: 1px solid #ccc;
+margin-left:0;
+}
+form.ugrad {
+	margin:15px 0;
+}
+.a2zaal_widget li a {
+margin-right: 3px;
+margin-right:.115rem;
+font-size:12px;
+font-size: 0.8rem;
+}
+body.search-results .hfeed h2.entry-title, /*.hfeed h2.entry-title,*/
+.search-results .faculty-listing h2.entry-title,
+.post-type-archive .faculty-listing h2.entry-title {
+	border-bottom: none;
+margin-left: 100px;
+margin-left:115px \9;
+margin-bottom: 0;
+font-size:1.0rem;
+}
+.search-results .faculty-listing .entry-content p,
+.post-type-archive .faculty-listing .entry-content p {
+	padding:0;
+	font-size:12px;
+	font-size:.9rem;
+margin-left: 100px;
+}
+.widget_uvasomsearch_widget {
+	padding-top:40px\9;
+}
+body.single-faculty-listing .entry-content p {
+padding: 15px 0 0 0;
+}
+body.single-faculty-listing .entry-content h4.faculty {
+	padding-top:0;
+}
+.entry-content ul.publications ul li {
+list-style-type: none;
+margin: .7rem 0 0 0;
+padding: 0;
+}
+div.publications a {
+color:#ff5003;
+text-decoration:underline;
+}
+
